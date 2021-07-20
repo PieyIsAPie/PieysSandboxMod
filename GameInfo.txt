@@ -1,0 +1,23 @@
+"GameInfo"
+{
+	game 		"Piey's Sandbox Mod"
+	title 		"Piey's Sandbox Mod"
+	GameData	"portal2.fgd"
+	gamelogo 	1
+
+	SupportsDX8     0
+	SupportsXbox360 1
+	
+
+	FileSystem
+	{
+		SteamAppId				620		
+		ToolsAppId				211	
+
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			Game				portal2
+		}
+	}
+}
